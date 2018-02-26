@@ -52,4 +52,20 @@ function findWinner() {
     
 }
 
+// entry point for the web page
+shuffleDeck();
+
+foreach($playerNames as &$player){
+    $players[$player] = getHand();
+}
+
 ?>
+
+<html>
+    <head>
+        <title> Silver Jack </title>
+    </head>
+    <body>
+
+    </body>
+</html>
